@@ -414,7 +414,15 @@ button {
   line-height: 26px;
   margin-top: 24px;
 }
+.header-section__video {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.header-section__video video {
+  width: 100%;
+  border-radius: 8px;
+}
 .header-section__image{
   max-width: 100%;
   margin-top: 24px;
@@ -829,6 +837,7 @@ footer{
 
 .register-btn-center{
   justify-content: center !important;
+  padding-bottom: 20px;
 }
 
 .register-btn-center button{ 
